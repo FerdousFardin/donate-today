@@ -63,7 +63,7 @@ p {
     color: grey;
     
 }
-.money-amount{
+.flexible-item{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -96,4 +96,26 @@ color: black;
 }
 .donate-now p{
     font-size: large;
+} 
+.donate-plan{
+    color: grey;
 }
+.plans{
+    height: 300px;
+    text-align: left;
+    margin: 10px;
+    padding: 40px 20px;
+    border-radius: 5px ;
+    
+    
+   
+}
+.plan-1{
+    background-color: #f5ece4;
+}
+.plan-2{
+     background-color: #fff6de;
+}
+.plan-3{
+    background-color: #e9edc9;
+} 
