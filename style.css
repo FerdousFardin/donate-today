@@ -66,9 +66,11 @@ p {
 .flexible-item{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 0 25%;
     margin-bottom: 40px;
+}
+.for-3{
+    justify-content: space-around;
+    padding: 0 25%;
 }
 .other-amount{
     background-color: #6969691a;
@@ -101,15 +103,12 @@ color: black;
     color: grey;
 }
 .plans{
-    height: 300px;
+    height: 250px;
     text-align: left;
     margin: 10px;
-    padding: 40px 20px;
-    border-radius: 5px ;
-    
-    
-   
-}
+    padding: 30px 20px;
+    border-radius: 10px ;
+    }
 .plan-1{
     background-color: #f5ece4;
 }
