@@ -1,11 +1,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-margin: 0;
-padding: 0;
-color: white
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white
 }
 
 .top-banner h1{
@@ -18,7 +18,7 @@ color: white
 }
 .button a{
     text-decoration: none;
-    background-color: tomato;
+    background-color: #f28482;
     color: white;
     display: inline-block;
     padding: 10px 20px;
@@ -44,22 +44,18 @@ color: white
     
 }
 h1{
-  
     margin-bottom: 20px;
 }
 p {
     margin-bottom: 20px;
 }
-.donate-now{
-    color: grey;
-    
-}
+
 .flexible-item{
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;
 }
-.for-3{
+.s-around{
     justify-content: space-around;
     padding: 0 25%;
 }
@@ -70,18 +66,20 @@ p {
 .select{
     background-color:rgba(255, 99, 71, 0.2);
     padding:15px 25px; 
-    color: tomato;
+    color: #f28482;
     border: 2px solid tomato;
     border-radius: 5px;
 } 
 .donate-input input{
     border: none;
-    
     font-size: 18px;
     text-align: center;
     color: #bbb;
     border-bottom: 1px solid #bbb;
     margin-bottom: 20px;
+}
+.grey-color{
+    color: grey;
 }
 
 .black-color{
@@ -90,9 +88,7 @@ color: black;
 .donate-now p{
     font-size: large;
 } 
-.donate-plan{
-    color: grey;
-}
+
 .plans{
     height: 250px;
     text-align: left;
@@ -116,11 +112,42 @@ color: black;
     border-radius: 5px;
 }
 .extra-sections{
-    color: grey;
+    
     padding: 0 10%;
    
 }
 .half-width{
     width: 50%;
     margin: 20px;
+}
+.form input{
+    width: 250px;
+  padding: 12px 20px;
+  margin: 4px 0;
+  border: none;
+  background-color: #e5e5e5;
+  color: white;
+}
+.form{
+    margin: 0 auto;
+    height: 200px;
+    width: 400px;
+    background-color: #fff1e6;
+    padding: 50px 50px 0;
+    text-align: center;
+    }
+footer h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    color: #f28482;
+    
+}
+footer {
+    background: #000;
+    height: 100px;
+    padding: 50px 0;
+    margin-top: 100px;
 }
